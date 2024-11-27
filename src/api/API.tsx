@@ -23,7 +23,7 @@ const searchGithub = async () => {
   }
 };
 
-const searchGithubUser = async (username: string) => {
+const searchGithubUser = async (username: string) => { // username: string | undefined 
   try {
     const response = await fetch(`https://api.github.com/users/${username}`, {
       headers: {
