@@ -1,14 +1,15 @@
-interface User {
-    avatar_url: string;
-    login: string;
-    location: string;
-    email: string;
-    company: string;
-    bio: string;
+import PlusForm from "./PlusButton";
+import MinusForm from "./MinusButton";
+import User from "../interfaces/User";
+interface CandidateCardProps {
+    user: User;
+    onMinus: () => void;
+    onPlus: () => void;
 }
-export default function CandidateCard({ user }: { user: User }) {
+export default function CandidateCard({ user, onMinus, onPlus }: CandidateCardProps) {
     return (
-        <div className="card">
+        <>
+    <div className="card">
         <img className="card-header" src={user.avatar_url} alt={user.login + "avatar"}/>
         <div className="card-body">
         <h2 className="">{user.login}</h2>
@@ -18,5 +19,10 @@ export default function CandidateCard({ user }: { user: User }) {
         <p><span>Bio: </span> {user.bio}</p>
         </div>
     </div>
+    <div className='forms-container'>
+    <MinusForm onSubmit={onMinus} />
+      <PlusForm onSubmit={onPlus} />
+    </div>
+    </>
     );
 }
