@@ -1,33 +1,63 @@
-# React + TypeScript + Vite
+# Candidate Search ![Static Badge](https://img.shields.io/badge/license-MIT-blue)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description 
 
-Currently, two official plugins are available:
+The Candidate Search Application allows employers to browse potential candidates retrieved from the GitHub API, save candidates to a list for further consideration, and manage the saved candidates. This application enhances hiring workflows by providing a simple and intuitive interface for reviewing candidates and making decisions.
 
-* [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md), which uses [Babel](https://babeljs.io/) for Fast Refresh
-* [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc), which uses [SWC](https://swc.rs/) for Fast Refresh
+## Table Contents
+- [User Story](#user-story)
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Feature](#feature)
+- [Tests](#tests) 
+- [Questions](#questions)
+- [Credits](#credits)
+- [Walkthrough Video](#walkthrough-video)
 
-## Expanding the ESLint configuration
+## User Story 
 
-If you're developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+AS AN employer
+I WANT a candidate search application
+SO THAT I can hire the best candidates
 
-* Configure the top-level `parserOptions` property as follows:
+## Description 
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+This project is about creating an Candidate Search Application. It helps the users to view a candidate’s information (name, username, avatar, email, location, company, GitHub profile link), uses the + button to save a candidate and load the next candidate and uses the - button to skip a candidate without saving.
 
-* Replace `plugin:@typescript-eslint/recommended` with `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`.
-* Optionally, add `plugin:@typescript-eslint/stylistic-type-checked`.
-* Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` and `plugin:react/jsx-runtime` to the `extends` list.
+## Installation
+- Fork remote Repository and clone to Local
 
----
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+## Usage
+- npm install
+- npm run dev
+
+## Feature
+The Candidate Search Application offers the following functionality:
+
+- Fetch candidate data using the GitHub API.
+
+- Save potential candidates to local storage for persistence.
+
+- Reject candidates and remove them from the saved list.
+
+- View and manage a list of saved candidates.
+
+- Responsive, polished user interface.
+
+## License
+[MIT License](https://opensource.org/license/mit)
+
+## Tests
+N/A
+
+## Walkthrough Video
+-[Video link](link)
+
+## Questions
+- [Github Profile](https://github.com/mwahba624/EGY-Candiate)
+
+## Credits
+- Worked with [Jose Rivas ](https://github.com/williamscodigo)
+
