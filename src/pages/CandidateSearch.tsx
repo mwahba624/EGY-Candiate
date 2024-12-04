@@ -11,8 +11,7 @@ const CandidateSearch = () => {
   const [currentIndex, setCurrentIndex] = useState<number>(0);
   useEffect(() => {
     //this might not be the wanted behavior - erase candidates from local storage when component loads!!!
-    //note: can be handled in a different way when adding candidates to local storage in handlePlusUser - check readme for more info
-    clearLocalData('candidates');
+   
     const fetchData = async () => {
       try {
         // First, fetch raw data from GitHub
