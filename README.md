@@ -3,7 +3,6 @@
 ## Description 
 
 The Candidate Search Application allows employers to browse potential candidates retrieved from the GitHub API, save candidates to a list for further consideration, and manage the saved candidates. This application enhances hiring workflows by providing a simple and intuitive interface for reviewing candidates and making decisions.
-
 ## Table Contents
 - [User Story](#user-story)
 - [Description](#description)
@@ -15,16 +14,13 @@ The Candidate Search Application allows employers to browse potential candidates
 - [Questions](#questions)
 - [Credits](#credits)
 - [Walkthrough Video](#walkthrough-video)
+- [Deployed Link](#deploy-link)
 
 ## User Story 
 
 AS AN employer
 I WANT a candidate search application
 SO THAT I can hire the best candidates
-
-## Description 
-
-This project is about creating an Candidate Search Application. It helps the users to view a candidate’s information (name, username, avatar, email, location, company, GitHub profile link), uses the + button to save a candidate and load the next candidate and uses the - button to skip a candidate without saving.
 
 ## Installation
 - Fork remote Repository and clone to Local
@@ -53,7 +49,10 @@ The Candidate Search Application offers the following functionality:
 N/A
 
 ## Walkthrough Video
--[Video link](link)
+-[Video link](N/A)
+
+## Deployed Link
+- [Deployed Link](https://egy-candidate.onrender.com/)
 
 ## Questions
 - [Github Profile](https://github.com/mwahba624/EGY-Candiate)
